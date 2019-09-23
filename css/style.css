@@ -1,0 +1,182 @@
+.background {
+	background-image:url("straightrazor2.jpg");
+	background-position: 0% 0%;
+	background-size:cover;
+}
+.header,.mainbody,.social{
+	width:100%;
+	opacity:1;
+}
+.header{
+	background: white;
+}
+.mainbody{
+	height:800px;
+	background-color:none;
+	background-image:url('../images/abstract_bg2.jpg');
+}
+.social{
+	height:100px;
+	float:right;
+}
+.sociallogo{
+	float:right;
+	margin:20px;
+}
+.logob{
+	background-repeat:no-repeat;
+	height:100px;
+	width:100%;
+}
+.menu,.about,.bookbutton{
+	height:100px;
+	font-size:4.5vw;
+	color:red;
+	margin:30px;
+	text-align:center;
+}
+.home,.shop,.book{
+	width:33.33%;
+	float:left;
+}
+a:link, a:visited, a:active{
+	color:red;
+}
+.book:hover{
+	background-color:grey;
+}
+.shop:hover{
+	background-color:grey;
+}
+.home:hover{
+	background-color:grey;
+}
+.testimonials,.about,.bookbuttonbox{
+	height:33.33%;
+}
+.carousel, .mySlides, .judgeimg {
+	width:970px;
+	height:250px;
+	margin:15px;
+	position:center;
+	display:justify;
+	position:relative;
+	top:100px;
+	margin:0 auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators -removed for now */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  display:none;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.about,.aboutbox,.booknow{
+	margin: 0 auto;
+}
+.aboutbox{
+	width:600px;
+	height:250px;
+}
+.bookbutton:hover{
+	background-color:gray;
+	position:center;
+	display:justify;
+}
+.sociallogo:hover{
+	background-color:grey;
+}
+/*Shop Tab style */
+.shopbox{
+width: 80%;
+height:800px;
+position:center;
+display:justify;
+margin:auto;
+background-color:none;
+}
+.shopitem{
+	width: 32%;
+	height:350px;
+	float:left;
+	margin: 5px;
+	padding: 5px;
+	position:center;
+	display:justify;
+	display:flex;
+}
+
+/*Book Tab style */
+#contactbox{
+	width:35%;
+	height:600px;
+	float:left;
+	margin:10px;
+}
+#map{
+	width:60%;
+	height:600px;
+	float:right;
+	margin:10px;
+}
+.contactboxinner{
+	float:right;
+	width:70%;
+	height:600px;
+	background-color:rgba(255, 255, 255, 0.486);
+	font-size: 2vw;
+}
