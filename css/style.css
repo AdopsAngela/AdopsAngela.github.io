@@ -6,6 +6,7 @@
 .header,.mainbody,.social{
 	width:100%;
 	opacity:1;
+	font-family: 'Arvo', serif;
 }
 .header{
 	background: white;
@@ -89,7 +90,7 @@ a:link, a:visited, a:active{
 	display:block;
 }
 .aboutbox{
-	width:600px;
+	max-width:600px;
 	height:250px;
 	display:block;
 }
@@ -126,13 +127,13 @@ background-color:none;
 	width:35%;
 	height:600px;
 	float:left;
-	margin:10px;
+	margin:15px;
 }
 #map{
-	width:60%;
+	max-width:60%;
 	height:600px;
 	float:right;
-	margin:10px;
+	margin:15px;
 }
 .contactboxinner{
 	float:right;
